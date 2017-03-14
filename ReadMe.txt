@@ -26,7 +26,7 @@ public interface ChallengeManager {
 
 Assumptions: 
 	1. User ID's and Round ID's are unique.
-	2. Using 'long' for 'unsigned int of 64 bit'. 
+	2. Used 'long' for 'unsigned int of 64 bit'. 
 	   Reference: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
 	3. Instead of vectors used HashMap for constant time 'get()' and 'put()' operations.
 	4. Created custom object 'Round' to store information related to a round together.
